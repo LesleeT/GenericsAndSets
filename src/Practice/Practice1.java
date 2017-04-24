@@ -57,27 +57,27 @@ public class Practice1 {
 //        list.add("Vodka");
 //        list.add("Beer");
 //        list.add("Beer");
-        //boolean b = list.contains("Vodka");
-        //System.out.println(b);
-        //list.add(2, "Steak");
-        //list.set(3, "Bourbon");
-        //list.remove(1);
-        
+//        boolean b = list.contains("Vodka");
+//        System.out.println(b);
+//        list.add(2, "Steak");
+//        list.set(3, "Bourbon");
+//        list.remove(1);
+//        
 //        Set<String> noDupes = new HashSet <>(list);
 //        list = new ArrayList<>(noDupes);
-         
-        // String s = list.get(0);
-        //old school for loop
+//         
+//         String s = list.get(0);
+//        old school for loop
 //        for(int i=0; i < list.size(); i++){
 //            System.out.println(list.get(i));
 //        }
-        
+//        
 //      new school for loop-make sure you know what version of java you're on before using this advanced for loop
 //      for(String item : list){
 //          System.out.println(item);
 //        }
-
-
+//
+//
 //        Employee e1 = new Employee("Smith", "bob", "333-33-3333");
 //        Employee e2 = new Employee("Smith", "bob", "333-33-3333");
 //        Employee e3 = new Employee("Smith", "bob", "333-33-3333");
@@ -87,9 +87,9 @@ public class Practice1 {
 //        for(Employee e : employeeList){
 //            Employee emp = (Employee)e;
 //        }
-         
-         
-         
-    }    
+//         
+//         
+//         
+  }    
     
 }

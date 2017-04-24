@@ -92,34 +92,32 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        Employee e1 = new Employee("Walters", "Joe", "245-456-7890");
-        Employee e2 = new Employee("Walters", "Joe", "245-456-7890");
-
-//        List empList = new ArrayList();
-//        empList.add("Johnson");
-//        empList.add("Sue");
-//        empList.add("123-456-7890");
-        
-//        String s = (String)empList.get(0);
-//        String s2 = (String)empList.get(1);
-//        String s3 = (String)empList.get(2);
-
-
-//        for(int i= 0; i < empList.size(); i++){
-//            System.out.println(empList.get(i));
+//        Employee e1 = new Employee("Walters", "Joe", "245-456-7890");
+//        Employee e2 = new Employee("Walters", "Joe", "245-456-7890");
+//
+//        List emp = new ArrayList();
+//        emp.add(e1);
+//        emp.add(e2);
+//
+//        
+//        Employee s = (Employee)emp.get(0);
+//        Employee s2 = (Employee)emp.get(1);
+//
+//        for(int i= 0; i < emp.size(); i++){
+//            System.out.println(emp.get(i));
 //        }
-        
-        List <Employee> empList = new ArrayList <>();
-        if(e1.equals(e2)){
-            empList.add(e2);
-        }
-        
-        if(e2.equals(e1)){
-            empList.add(e1);
-        }
-        System.out.println(empList.toString());
+//        
+//        List <Employee> empList = new ArrayList <>();
+//        if(e1.equals(e2)){
+//            empList.add(e2);
+//        }
+//        
+//        if(e2.equals(e1)){
+//            empList.add(e1);
+//        }
+//        System.out.println(empList.toString());
 
-    
+//    
     }
     
     
