@@ -82,7 +82,7 @@ public class Dog {
         list.add(dog3);
         list.add(dog4);
         //list.set(1, "Oreo");
-        list.remove(2);
+        //list.remove(2);
         
         Set <Dog> noDupes = new HashSet <>(list);     
         list = new ArrayList<>(noDupes);
