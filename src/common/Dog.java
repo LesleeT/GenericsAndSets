@@ -71,24 +71,24 @@ public class Dog {
  
     
     public static void main(String[] args) {
-//        Dog dog = new Dog("Fido", "1234");
-//        Dog dog2 = new Dog("Bubbles", "4567");
-//        Dog dog3 = new Dog("Fido", "1234");
-//        Dog dog4 = new Dog("Woofie", "4512");
+        Dog dog = new Dog("Fido", 1234);
+        Dog dog2 = new Dog("Bubbles", 4567);
+        Dog dog3 = new Dog("Fido", 1234);
+        Dog dog4 = new Dog("Woofie", 4512);
          
-        List <String> list = new ArrayList<>();
-        list.add("Fido");
-        list.add("Fido");
-        list.add("Bubbles");
-        list.add("Woofie");
-        list.set(1, "Oreo");
+        List <Dog> list = new ArrayList<>();
+        list.add(dog);
+        list.add(dog2);
+        list.add(dog3);
+        list.add(dog4);
+        //list.set(1, "Oreo");
         //list.remove(1);
         
-        Set <String> noDupes = new HashSet <>();     
+        Set <Dog> noDupes = new HashSet <>(list);     
         list = new ArrayList<>(noDupes);
         //String s = list.get(0);
-        for(int i=0; i < noDupes.size(); i++){
-            System.out.println(noDupes);
+        for(int i=0; i < list.size(); i++){
+            System.out.println(list);
         }
         
         
