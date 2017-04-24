@@ -92,9 +92,9 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-//        Employee e1 = new Employee("Walters", "Joe", "245-456-7890");
-//        Employee e2 = new Employee("Walters", "Joe", "245-456-7890");
-//
+        Employee e1 = new Employee("Walters", "Joe", "245-456-7890");
+        Employee e2 = new Employee("Walters", "Joe", "245-456-7890");
+
 //        List emp = new ArrayList();
 //        emp.add(e1);
 //        emp.add(e2);
@@ -106,7 +106,7 @@ public class Employee {
 //        for(int i= 0; i < emp.size(); i++){
 //            System.out.println(emp.get(i));
 //        }
-//        
+        
 //        List <Employee> empList = new ArrayList <>();
 //        if(e1.equals(e2)){
 //            empList.add(e2);
@@ -116,7 +116,7 @@ public class Employee {
 //            empList.add(e1);
 //        }
 //        System.out.println(empList.toString());
-
+//
 //    
     }
     

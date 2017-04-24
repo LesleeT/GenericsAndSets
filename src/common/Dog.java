@@ -8,12 +8,12 @@ import java.util.Set;
 
 public class Dog {
     private String name;
-    private String rabiesId;
+    private int rabiesId;
 
     public Dog() {
     }
 
-    public Dog(String name, String rabiesId) {
+    public Dog(String name, int rabiesId) {
         this.name = name;
         this.rabiesId = rabiesId;
     }
@@ -26,19 +26,19 @@ public class Dog {
         this.name = name;
     }
 
-    public String getRabiesId() {
+    public int getRabiesId() {
         return rabiesId;
     }
 
-    public void setRabiesId(String rabiesId) {
+    public void setRabiesId(int rabiesId) {
         this.rabiesId = rabiesId;
     }
 
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 43 * hash + Objects.hashCode(this.name);
-        hash = 43 * hash + Objects.hashCode(this.rabiesId);
+        int hash = 5;
+        hash = 41 * hash + Objects.hashCode(this.name);
+        hash = 41 * hash + this.rabiesId;
         return hash;
     }
 
@@ -54,37 +54,37 @@ public class Dog {
             return false;
         }
         final Dog other = (Dog) obj;
-        if (!Objects.equals(this.name, other.name)) {
+        if (this.rabiesId != other.rabiesId) {
             return false;
         }
-        if (!Objects.equals(this.rabiesId, other.rabiesId)) {
+        if (!Objects.equals(this.name, other.name)) {
             return false;
         }
         return true;
     }
 
+
     @Override
     public String toString() {
         return "Dog's name is: " + name + ", rabiesId is: " + rabiesId;
     }
-
-    
-    
+ 
     
     public static void main(String[] args) {
-        Dog dog = new Dog("Fido", "1234");
-        Dog dog2 = new Dog("Bubbles", "4567");
-        Dog dog3 = new Dog("Fido", "1234");
-        Dog dog4 = new Dog("Woofie", "4512");
+//        Dog dog = new Dog("Fido", "1234");
+//        Dog dog2 = new Dog("Bubbles", "4567");
+//        Dog dog3 = new Dog("Fido", "1234");
+//        Dog dog4 = new Dog("Woofie", "4512");
          
         List <String> list = new ArrayList<>();
-        //list.add(dog);
-        //list.add(dog2);
-        //list.add(dog3);
-        //list.add(dog4);
-
+        list.add("Fido");
+        list.add("Fido");
+        list.add("Bubbles");
+        list.add("Woofie");
+        list.set(1, "Oreo");
+        //list.remove(1);
         
-        Set <Dog> noDupes = new HashSet <>();     
+        Set <String> noDupes = new HashSet <>();     
         list = new ArrayList<>(noDupes);
         String s = list.get(0);
         for(int i=0; i < noDupes.size(); i++){
