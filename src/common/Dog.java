@@ -86,7 +86,7 @@ public class Dog {
         
         Set <String> noDupes = new HashSet <>();     
         list = new ArrayList<>(noDupes);
-        String s = list.get(0);
+        //String s = list.get(0);
         for(int i=0; i < noDupes.size(); i++){
             System.out.println(noDupes);
         }
